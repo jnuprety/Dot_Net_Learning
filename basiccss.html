@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS</title>
+    <!-- internal css
+    # must be written inside the head section with <style></style>-->
+    <style>
+        /* Universal Selector*/
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        /* Type Selector*/
+        body{
+            background-color: #e4e4eb;
+        }
+
+        h1{
+            color:#ff0000 !important;
+        }
+
+        /* Class Selector*/
+        .container{
+            width:1320px;
+            min-height:500px;
+            margin:auto auto;
+            background-color:#ffffff;
+        }
+
+        /* ID Selector */
+        #footer{
+            width:100%;
+            background-color:#49494b;
+            min-height:150px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- There are three types of css-->
+    <!-- #1. Inline CSS 
+        #2. Internal CSS/Embedded CSS -- Single Page Site
+        #3. External CSS -- widely used. 
+            seperate css file must be create with .css extension
+            # it must be attached with <link href="">-->
+        <div class="container">
+            <h1 style="font-size:70px; font-variant:small-caps; color:#00ff00;">Welcome</h1>
+            <h1>Welcome</h1>
+        </div>
+        <div id="footer">
+            
+        </div>
+    
+</body>
+</html>

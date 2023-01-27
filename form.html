@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Register</title>
+</head>
+<body>
+
+    <table border="1" width="1320px" align="center">
+        <tr>
+            <td colspan="4"><img src="images/banner.jpg" alt="banner" height="200px" width="1320px"></td>
+        </tr>
+        <tr>
+            <!-- Hyper link-->
+            <!--
+                # there are 4 types of hyperlink
+                1. page or url link
+                2. External Url link
+                3. Email link
+                4. Same Page Link
+            -->
+            <td colspan="4">
+                <a href="index.html" title="HOme">Home</a>
+                <a href="about.html" title="About">About Us</a>
+                <a href="contact.html" title="Contact">Contact</a>
+            <a href="form.html" title="Login/register">Login/Register</a>
+                
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="mailto:info@mydomain.com?subject=quick contact from website">Email US</a>
+            </td>
+        </tr>
+       
+        <tr>
+            <td colspan="2" width="50%" valign="top">
+                <h1>Login</h1>
+                <form method="post" action="#" name="login">
+                    <input type="text" name="username" placeholder="Username">
+                    <input type="password" name="password" placeholder="Password">
+                    <input type="submit" name="submit" value="Login">
+
+                </form>
+            
+            </td>
+            <td colspan="2" width="50%">
+                <h2>Register2</h2>
+                <form method="post" action="#" name="register">
+                    <fieldset>
+                        <legend>Register</legend>
+
+                    
+                    <label>Username</label>
+                    <input type="text" name="username">
+                    <br>
+                    <label>Password</label>
+                    <input type="password" name="password">
+
+                    <br>
+                    <label>Email</label>
+                    <input type="email" name="email">
+
+                    <br>
+                    <label>Gender</label>
+                    <input type="radio" name="gender" value="M">Male
+                    <input type="radio" name="gender" value="F">Female
+                    <input type="radio" name="gender" value="O">Other
+
+                    <br>
+                    <label>Marital Status</label>
+                    <input type="checkbox" name="mstatus" value="yes">Married
+
+
+                    <br>
+                    <label>Photo</label>
+                    <input type="file" name="photo" >
+
+                    <br>
+                    <label>Message</label>
+                    <textarea rows="5" cols="50" name="message" ></textarea>
+
+                    
+
+                    <br>
+                    <label>City</label>
+                    <select size="1" name="city">
+                        <option value="">--Please Select--</option>
+                        <option value="ktm">Kathmandu</option>
+                        <option value="lpt">Lalitpur</option>
+                        <option value="bkt">Bhaktapur</option>
+
+                    </select>
+                    <br>
+                   
+                    <input type="submit" name="submit" value="Login">
+                    <input type="reset" name="reset" value="Cancel">
+                </fieldset>
+
+                </form>
+            
+            
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">footer will be here</td>
+        </tr>
+
+    </table>
+
+    </table>
+    
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+/* Universal Selector*/
+*{
+    margin:0px;
+    padding:0px;
+}
+/* Type Selector*/
+body{
+    background-color: #e4e4eb;
+}
+
+h1{
+    color:#ff0000 !important;
+}
+
+/* Class Selector*/
+.container{
+    width:1320px;
+    min-height:500px;
+    margin:auto auto;
+    background-color:#ffffff;
+}
+
+/* ID Selector */
+#footer{
+    width:100%;
+    background-color:#49494b;
+    min-height:150px;
+}
